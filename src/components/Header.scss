@@ -1,23 +1,47 @@
-
+@import '../index.scss';
 header{
-       background-image: url('../img/chinitass.jpg');
-       -webkit-background-size: cover;
+       width: 100%;
+       height: 100vh;
+       background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/chinitass.jpg');
+       //background-image: url('../img/chinitass.jpg');
+-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  opacity: 90%;
   background-size: cover;
-       height: 100vh;
+ .head{
+        display: flex;
+        justify-self: flex-end;
+ }
+     
+       
 
 .guestZone{
        display: flex;
+       
       
        p{
               display: flex;
+              justify-self: flex-start;
               color: red;
-              font-size: 20px;
+              font-size: 30px;
+              font-family: sans-serif;
+              padding-left: 10px;
        }
        .log{
               display: flex;
-              justify-content: flex-end;
+              
+       }
+       button{
+              display: flex;
+             justify-self: flex-end;
+              background-color: red;
+              color: white;
+              height: 30px;
+              font-size: 20px;
+              cursor: pointer;
+              font-family: sans-serif;
+              opacity: 80%;
        }
       
 }

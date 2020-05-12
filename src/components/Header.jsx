@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+
 import './Header.scss';
 
 
@@ -8,12 +9,12 @@ import './Header.scss';
 const  Header = () => {
       
     return (
-       <header>
+       <header className="head">
        
        <div className="guestZone">
                <div><p>Chinitas</p></div>
               
-               <div><NavLink className="log" to='/login' exact>Login</NavLink></div>
+               <div><NavLink className="log" to='/login' exact><button>Login</button></NavLink></div>
                </div>
        </header>
        
