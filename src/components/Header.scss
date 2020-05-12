@@ -1,0 +1,25 @@
+
+header{
+       background-image: url('../img/chinitass.jpg');
+       -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+       height: 100vh;
+
+.guestZone{
+       display: flex;
+      
+       p{
+              display: flex;
+              color: red;
+              font-size: 20px;
+       }
+       .log{
+              display: flex;
+              justify-content: flex-end;
+       }
+      
+}
+
+}
