@@ -10,12 +10,11 @@ const  Header = () => {
       
     return (
        <header className="head">
-       
+       <p className="net">Chinitas</p>
        <div className="guestZone">
-               <div><p>Chinitas</p></div>
-              
-               <div><NavLink className="log" to='/login' exact><button>Login</button></NavLink></div>
-               </div>
+     
+       <div><NavLink className="log" to='/login' exact><button>Login</button></NavLink></div>
+       </div>
        </header>
        
    )
