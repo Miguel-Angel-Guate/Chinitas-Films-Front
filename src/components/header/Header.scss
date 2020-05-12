@@ -26,6 +26,7 @@
               font-size: 28px;
               margin-left: 30px;
               margin-top: 15px;
+              cursor: pointer;
        }
        .log{
       
@@ -39,7 +40,7 @@
               margin-top: 25px;
               margin-right: 25px;
               border: red;
-              
+              cursor: pointer;
        }
 
 
@@ -47,6 +48,8 @@
        }
        .search{
               display: flex;
+              width: 100%;
+              justify-content: center;
               
        }
 
