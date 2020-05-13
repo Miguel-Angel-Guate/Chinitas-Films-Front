@@ -1,0 +1,71 @@
+@import '../../index.scss';
+.contOfHeader{
+      display: flex;
+      flex-wrap: wrap;
+     
+
+     
+       width: 100%;
+       height: 100vh;
+       background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../img/chinitass.jpg');
+       //background-image: url('../img/chinitass.jpg');
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+  background-size: cover;
+  .headOfTheContainer{
+      
+       display: flex;
+     width: percentage($number: 100);
+       height: 100px;
+       
+       justify-content: space-between;
+       
+       
+       .titleOfChinitas{
+
+              color: red;
+              font-size: 28px;
+              margin-left: 30px;
+              margin-top: 15px;
+              cursor: pointer;
+       }
+       .buttonLogin{
+      
+       height: max-content;
+
+       button{
+              width: 80px;
+              height: 25px;
+              font-size: 15px;
+              background-color: red;
+              color: whitesmoke;
+              margin-top: 25px;
+              margin-right: 25px;
+              border: red;
+              cursor: pointer;
+              font-family: Arial, Helvetica, sans-serif;
+
+       }
+
+
+       }
+       }
+       .search{
+              display: flex;
+              width: 100%;
+            justify-content: flex-start;
+              
+
+              
+       }
+
+       
+ 
+  
+       
+      
+}
+
+
