@@ -182,36 +182,7 @@ const  Scroll = () => {
       
               </div>
              
-              <div className="fifthSection">
-              <div className="call">
-              <span>Call us  000000000000000</span>
               </div>
-              
-              <div className="fifthContainer">
-              <div className="fifthLeft">
-              <li>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              </li>
-              </div>
-              <div className="fifthRight">
-
-              <li>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              </li>
-              </div>
-              </div>
-              <span className="lastSpan">China films around the world</span>
-
-              </div>
-
-              </div>
-
        )
 }
 
