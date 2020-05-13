@@ -2,19 +2,19 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 import './Header.scss';
-import Search from '../search/Search';
+import SearchFront from '../search/Search';
 
 const  Header = () => {
       
     return (
-       <header className="cont">
+       <header className="contOfHeader">
        
-       <div className="head">
-       <p className="net">Chinitas films</p>
-       <NavLink className="log" to='/login' exact><button>Login</button></NavLink>
+       <div className="headOfTheContainer">
+       <p className="titleOfChinitas">Chinitas films</p>
+       <NavLink className="buttonLogin" to='/login' exact><button>Sign in</button></NavLink>
        </div>
        <div className="search">
-       <Search />
+       <SearchFront />
        </div>
 
        </header>

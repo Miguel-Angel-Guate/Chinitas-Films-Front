@@ -1,5 +1,5 @@
 .scrollCont{
-       height: 60vh;
+       height: 280vh;
 
 
         .firstSection{
@@ -12,7 +12,7 @@
               margin-top: 0;
               display: flex;
               
-              .left{
+              .leftOne{
                      width: 45%;
                     
                      margin-top: 0;
@@ -20,15 +20,25 @@
                      display: flex;
                      align-items: center;
                      justify-content: center;
+                     h1{
+                            color: white;
+                     }
               }
-              .right{
+              .rightOne{
                      
                      width: 50%;
                     
                      height: 59vh;
                      display: flex;
                      background-image: url('../../img/firstSection-right.gif');
-
+                     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+  background-size: cover;
+                     h1{
+                            display: flex;
+                     }
                      }
 
 
@@ -39,21 +49,28 @@
 
        .secondSection{
               height: 60vh;
+              margin-bottom: 0;
+              padding-bottom: 0;
              
               border: rgb(95, 91, 91) 2px solid;
               .containerSecondSection{
                      width: 100%;
                      display: flex;
-                     .leftt{
+                     .leftTwo{
                             display: flex;
                             width: 50%;
-                            height: 59vh;
+                            height: 60vh;
                             background-image: url('../../img/secondSection.gif');
+                            -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+  background-size: cover;
 
                      }
-                     .rightt{
+                     .rightTwo{
                             display: flex;
-                            height: 59vh;
+                            height: 60vh;
                             background-color: black;
                             width: 50%;
                             color: white;
@@ -64,5 +81,63 @@
               }
 
        }
+
+       /* third section*/
+
+       .thirdSection{
+              height: 60vh;
+             
+             
+              border: rgb(95, 91, 91) 2px solid;
+              .containerThirdSection{
+                     margin-top: 0;
+                     padding-top: 0;
+                     width: 100%;
+                     display: flex;
+                     .leftThird{
+                            display: flex;
+                            height: 60vh;
+                            background-color: black;
+                            width: 50%;
+                            color: white;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;      
+                     }
+                     .rightThird{
+                            display: flex;
+                            width: 50%;
+                            height: 60vh;
+                            background-image: url('../../img/thirdSection.gif');
+                            -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+  background-size: cover;
+
+                            
+                     }
+              }
+
+       }
+
+
+         /* fourth section*/
+ .fourthSection{
+        display: flex;
+        padding-top: 0;
+        margin-top: 0;
+        height: 100vh;
+        background-color: black;
+        justify-content: center;
+        border: rgb(95, 91, 91) 2px solid;
+        .h1FouthSection{
+               color: white;
+        }
+       
+
+ }
+
+
 
 }

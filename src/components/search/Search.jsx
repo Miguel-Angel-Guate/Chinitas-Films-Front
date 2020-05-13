@@ -1,24 +1,37 @@
 import React from 'react'
 import  './Search.scss'
+import { Input } from 'antd';
+import { AudioOutlined } from '@ant-design/icons';
+
+const { Search } = Input;
 
 
 
 
 
 
-const Search = () => {
+
+
+
+const SearchFront = () => {
        return (
-              <div>
-              <h1>All films and series would you like <br></br> and little more</h1>
-              <p>Enjoy anywhere would you like. leave your suscription any time</p>
+              <div className="search">
+              <h1>Unlimited <br></br> films, Tv <br></br> shows and more</h1>
+              <p>Watch anywhere, cancel anytime</p>
+              <Search className="se"
+      placeholder="email"
+      enterButton="Join free for a month"
+      size="large"
+      onSearch={value => console.log(value)}
+      
+    />
+    <p>Start writting your email </p>
+
              
-                    
-                   
-                      
               </div>
 
 
        )
 }
 
-export default Search
+export default SearchFront

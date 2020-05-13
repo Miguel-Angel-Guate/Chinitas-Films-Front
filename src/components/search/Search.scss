@@ -1,7 +1,36 @@
-h1{
+.search{ 
+       
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+h1{   display: flex;
+       align-items: flex-start;
        color: white;
+       font-family: Arial, Helvetica, sans-serif;
 }
 p{     display: flex;
        color: white;
        font-size: 18px;
+       font-family: Arial, Helvetica, sans-serif;
+
 }
+.se{
+       width: 50%;
+       Button{
+              display: flex;
+              background-color: red;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 13px;
+              
+
+       }
+}
+p{
+       font-family: Arial, Helvetica, sans-serif;
+    
+}
+}
+
+    
