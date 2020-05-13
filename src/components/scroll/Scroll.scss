@@ -49,7 +49,7 @@
 
        .secondSection{
               height: 60vh;
-              margin-bottom: 0;
+              margin-bottom: 1px;
               padding-bottom: 0;
              
               border: rgb(95, 91, 91) 2px solid;
@@ -85,15 +85,18 @@
        /* third section*/
 
        .thirdSection{
-              height: 60vh;
+              height: 58vh;
+              margin-bottom: 2px;
+              border-top:  rgb(95, 91, 91) 3px solid;
              
-             
-              border: rgb(95, 91, 91) 2px solid;
+
+
               .containerThirdSection{
-                     margin-top: 0;
+                     margin-top: 1px;
                      padding-top: 0;
                      width: 100%;
                      display: flex;
+                     background-color: white;
                      .leftThird{
                             display: flex;
                             height: 60vh;
@@ -110,10 +113,10 @@
                             height: 60vh;
                             background-image: url('../../img/thirdSection.gif');
                             -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+                            -moz-background-size: cover;
+                            -o-background-size: cover;
   
-  background-size: cover;
+                            background-size: cover;
 
                             
                      }
@@ -126,15 +129,48 @@
  .fourthSection{
         display: flex;
         padding-top: 0;
-        margin-top: 0;
+        width: 100%;
+        margin-top: 15px;
         height: 100vh;
         background-color: black;
         justify-content: center;
         border: rgb(95, 91, 91) 2px solid;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: black;
         .h1FouthSection{
                color: white;
+               margin-top: 2px;
         }
-       
+       .modalScroll{
+              padding: 10px;
+              display: flex;
+              button{
+width: 550px;
+background-color: #333333;
+border: black;
+              }
+
+              
+       }
+       .searchNavFouthSection{
+              margin-top: 40px;
+              width: 50%;
+              Button{
+                     display: flex;
+                     background-color: red;
+                     font-family: Arial, Helvetica, sans-serif;
+                     font-size: 13px;
+
+                     
+              }
+             
+             .h1SearchUnderFourthSection{
+                    color:white;
+             }
+          
+       }
 
  }
 

@@ -1,7 +1,39 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Scroll.scss'
+import { Drawer, Button, Radio, Space, Modal, Input } from 'antd';
+import { AudioOutlined } from '@ant-design/icons';
+
+const { Search } = Input;
+
+
+
+
+
+
+const RadioGroup = Radio.Group;
 
 const  Scroll = () => {
+       
+       const [change, setChange]  = useState(false)
+
+      const  showModal = () => {
+                setChange  (true)
+            };
+          
+           const  handleOk = e => {
+              console.log(e);
+              setChange  (false)
+              
+            };
+          
+            const handleCancel = e => {
+              console.log(e);
+              setChange  (false)
+
+              
+            };
+      
+
        return (
               <div className="scrollCont">
 
@@ -10,7 +42,7 @@ const  Scroll = () => {
               <div className="containerFirstSection">
               
               <div className="leftOne">
-              <h1>Enjoy Netflix on <br></br> your tv  </h1>
+              <h1>Enjoy Chinitas films on <br></br> your tv  </h1>
               </div>
              
               <div className="rightOne">
@@ -59,9 +91,94 @@ const  Scroll = () => {
 
               <div className="fourthSection">
               <h1 className="h1FouthSection">Relevants questions</h1>
+              <div className="modalScroll">
+              <Button type="primary" onClick={showModal}>
+                Whats is Chinitas Films
+              </Button>
+              <Modal
+                title="Chinitas Films"
+                visible={change}
+               onOk={handleOk}
+               onCancel={handleCancel}
+              >
+                <p>lorem ipsum lorem ipsum lorem ipsum</p>
+                
+              </Modal>
+              
+            </div>
+            <div className="modalScroll">
+            <Button type="primary" onClick={showModal}>
+              Whats is Chinitas Films
+            </Button>
+            <Modal
+              title="Chinitas Films"
+              visible={change}
+             onOk={handleOk}
+             onCancel={handleCancel}
+            >
+              <p>lorem ipsum lorem ipsum lorem ipsum</p>
+              
+            </Modal>
+            
+          </div>
+
+          <div className="modalScroll">
+            <Button type="primary" onClick={showModal}>
+              Whats is Chinitas Films
+            </Button>
+            <Modal
+              title="Chinitas Films"
+              visible={change}
+             onOk={handleOk}
+             onCancel={handleCancel}
+            >
+              <p>lorem ipsum lorem ipsum lorem ipsum</p>
+              
+            </Modal>
+            
+          </div>
+
+
+          <div className="modalScroll">
+            <Button type="primary" onClick={showModal}>
+              Whats is Chinitas Films
+            </Button>
+            <Modal
+              title="Chinitas Films"
+              visible={change}
+             onOk={handleOk}
+             onCancel={handleCancel}
+            >
+              <p>lorem ipsum lorem ipsum lorem ipsum</p>
+              
+            </Modal>
+            
+          </div>
+
+
+          <div className="modalScroll">
+            <Button type="primary" onClick={showModal}>
+              Whats is Chinitas Films
+            </Button>
+            <Modal
+              title="Chinitas Films"
+              visible={change}
+             onOk={handleOk}
+             onCancel={handleCancel}
+            >
+              <p>lorem ipsum lorem ipsum lorem ipsum</p>
+              
+            </Modal>
+            
+          </div>
+              <Search className="searchNavFouthSection"
+              placeholder="email"
+               enterButton="Join free for a month"
+              size="large"
+              onSearch={value => console.log(value)}
+        />
+       <h1 className="h1SearchUnderFourthSection">Hello World</h1>
               </div>
-
-
               </div>
        )
 }
