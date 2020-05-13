@@ -131,7 +131,7 @@
         padding-top: 0;
         width: 100%;
         margin-top: 15px;
-        height: 100vh;
+        height: 85vh;
         background-color: black;
         justify-content: center;
         border: rgb(95, 91, 91) 2px solid;
@@ -179,6 +179,60 @@ border: black;
 
  }
 
+.fifthSection{
+       display: flex;
+       border: rgb(95, 91, 91) 2px solid;
+       background-color: black;
+       height: 60vh;
+       flex-direction: column;
+       .call{
+              height: 50px;
+              display: flex;
+              margin-top: 20px;
+
+   
+width: 100%; 
+ span{
+              color: white;
+             width: 100%;
+             display: flex;
+             justify-content: center;
+              
+              height: 50px;
+              flex-wrap: nowrap;
+             
+              
+       }
+}
+       .fifthContainer{
+              display: flex;
+              
+              margin-top: 10px;
+            
+             
+              width: 100%;
+
+              .fifthLeft{
+                     display: flex;
+                     color: white;
+                     width: 50%;
+              }
+
+       .fifthRight{
+              display: flex;
+              width: 50%;
+              color: white;
+       }
+       }
+.lastSpan{
+       color: white;
+       margin-left: 40px;
+       margin-top: 20px;
+}
+
+
+
+}
 
 
 }
