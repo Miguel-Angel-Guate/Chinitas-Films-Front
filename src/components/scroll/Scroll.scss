@@ -1,6 +1,8 @@
 .scrollCont{
-       height: 120vh;
-       .firstSection{
+       height: 60vh;
+
+
+        .firstSection{
        height: 60vh;
        border: rgb(95, 91, 91) 2px solid;
        background-color: black;
@@ -11,7 +13,7 @@
               display: flex;
               
               .left{
-                     width: 50%;
+                     width: 45%;
                     
                      margin-top: 0;
                      height: 59vh;
@@ -20,49 +22,47 @@
                      justify-content: center;
               }
               .right{
-                     display: flex;
+                     
                      width: 50%;
-                     background-color: red;
+                    
                      height: 59vh;
                      display: flex;
                      background-image: url('../../img/firstSection-right.gif');
-//                      -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-  
-//   background-size: cover;
-              }
+
+                     }
 
 
+              }    
        }
+
+       /* second section*/
+
        .secondSection{
               height: 60vh;
-       border: rgb(95, 91, 91) 2px solid;
-       background-color: black;
-       margin-top: 0;
+             
+              border: rgb(95, 91, 91) 2px solid;
               .containerSecondSection{
                      width: 100%;
-              margin-top: 0;
-              display: flex;
-                     .left{
-                            width: 50%;
-                    
-                            margin-top: 0;
-                            height: 59vh;
+                     display: flex;
+                     .leftt{
                             display: flex;
-                            align-items: center;
-                            justify-content: center;
+                            width: 50%;
+                            height: 59vh;
+                            background-image: url('../../img/secondSection.gif');
 
                      }
-                     .right{
+                     .rightt{
                             display: flex;
-                     width: 50%;
-                     background-color: red;
-                     height: 59vh;
-                     display: flex;
+                            height: 59vh;
+                            background-color: black;
+                            width: 50%;
+                            color: white;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
                      }
               }
+
        }
-       
-       }
+
 }

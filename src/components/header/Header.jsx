@@ -10,7 +10,7 @@ const  Header = () => {
        <header className="cont">
        
        <div className="head">
-       <p className="net">Chinitas</p>
+       <p className="net">Chinitas films</p>
        <NavLink className="log" to='/login' exact><button>Login</button></NavLink>
        </div>
        <div className="search">
