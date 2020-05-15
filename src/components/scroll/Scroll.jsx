@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Scroll.scss'
 import { Drawer, Button, Radio, Space, Modal, Input } from 'antd';
 import { AudioOutlined } from '@ant-design/icons';
+import Header from '../header/Header';
 
 const { Search } = Input;
 
@@ -36,7 +37,7 @@ const  Scroll = () => {
 
        return (
               <div className="scrollCont">
-
+            <Header />
 
               <div className="firstSection">
               <div className="containerFirstSection">

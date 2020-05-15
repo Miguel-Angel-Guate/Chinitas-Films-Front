@@ -6,13 +6,6 @@ import { AudioOutlined } from '@ant-design/icons';
 const { Search } = Input;
 
 
-
-
-
-
-
-
-
 const SearchFront = () => {
        return (
               <div className="search">
