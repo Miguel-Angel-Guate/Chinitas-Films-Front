@@ -8,24 +8,33 @@
   p{
                      font-family: Arial, Helvetica, sans-serif;
                      color: red;
+                     font-size: 35px;
+                     padding-top: 24px;
+                     padding-left: 15px;
                     
               }
       
-       .chinitasTitleSignInPage{
-              display: flex;
-              width: 100%;
-
-            
-
-       }
+       
 
        .searchInSignInPage{
               height: 60vh;
               display: flex;
               justify-content: center;
-              h1{
+              padding-top: 110px;
+
+              .login-form-button{
+                     background-color: red;
                      color: white;
+                     border: red;
+                     
+
               }
+              a{
+                     color: red;
+                     font-family: Arial, Helvetica, sans-serif;
+
+              }
+              
        }
 
 }
