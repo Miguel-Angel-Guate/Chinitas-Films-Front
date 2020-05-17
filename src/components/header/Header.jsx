@@ -12,7 +12,7 @@ const  Header = () => {
        <header className="contOfHeader">
        
        <div className="headOfTheContainer">
-       <p className="titleOfChinitas">Chinitas films</p>
+       <p className="titleOfChinitas">Chapos films</p>
        <NavLink className="buttonLogin"  to='/signIn' exact><button>Sign in</button></NavLink>
        </div>
        <div className="search">

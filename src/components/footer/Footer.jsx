@@ -11,18 +11,18 @@ const Footer = () => {
               <div className="containerOfFooter">
               <div className="footerLeft">
               <li>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
+              <ul>Why Chapos is the Best?</ul>
+              <ul>Why Chapos is easy</ul>
+              <ul>Why Chapos </ul>
+              <ul>Why I love chapos</ul>
               </li>
               </div>
               <div className="footerRight">
 
               <li>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
+              <ul>Chapos is easy peace</ul>
+              <ul>Chapos i love it</ul>
+              <ul>Thanks chapos for All</ul>
               <ul>Answers relevants</ul>
               </li>
               </div>
