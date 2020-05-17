@@ -24,7 +24,7 @@ const SearchFront = () => {
       onSearch={value => console.log(value)}
       
     />
-    <p>Ready? Start writting your email </p>
+    <NavLink to="/signup"><p>Ready? Start writting your email </p></NavLink>
 
              
               </div>
