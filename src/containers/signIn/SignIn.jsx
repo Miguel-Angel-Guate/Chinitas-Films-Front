@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import './SignIn.scss'
+import Footer from'../../components/footer/Footer'
 
 
 
@@ -36,7 +37,7 @@ export class SignIn extends Component {
         rules={[
           {
             required: true,
-            message: 'Please input your Username!',
+            message: 'Please input your email!',
           },
         ]}
       >
@@ -63,10 +64,11 @@ export class SignIn extends Component {
         <Button  htmlType="submit" className="login-form-button">
           Log in
         </Button>
-        Or <NavLink to="/home"><a >register now!</a></NavLink>
+        <p className="or">Or</p> <NavLink to="/home"><a >register now!</a></NavLink>
       </Form.Item>
     </Form>
                          </div>
+                         <Footer />
 
                      </div>
   );

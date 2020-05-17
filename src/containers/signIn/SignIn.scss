@@ -5,6 +5,9 @@
        -moz-background-size: cover;
        -o-background-size: cover;
        background-size: cover;
+       margin-bottom: 0;
+       padding-bottom: 0;
+
   p{
                      font-family: Arial, Helvetica, sans-serif;
                      color: red;
@@ -35,6 +38,13 @@
 
               }
               
+       }
+       .or{   padding: 1px;
+              margin: 0;
+              color: white;
+              display: flex;
+              font-size: 12px;
+              display: inline;
        }
 
 }

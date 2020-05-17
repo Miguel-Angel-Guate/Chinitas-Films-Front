@@ -1,0 +1,55 @@
+.footerContainer{
+       display: flex;
+       border: rgb(95, 91, 91) 2px solid;
+       background-color: black;
+       height: 50vh;
+       flex-direction: column;
+     margin-top: 117px;
+       .callUsContainer{
+              height: 50px;
+              display: flex;
+              margin-top: 20px;
+
+   
+width: 100%; 
+ span{
+              color: white;
+             width: 100%;
+             display: flex;
+             justify-content: center;
+              
+              height: 50px;
+              flex-wrap: nowrap;
+             
+              
+       }
+}
+       .containerOfFooter{
+              display: flex;
+              
+              margin-top: 10px;
+            
+             
+              width: 100%;
+
+              .footerLeft{
+                     display: flex;
+                     color: white;
+                     width: 50%;
+              }
+
+       .footerRight{
+              display: flex;
+              width: 50%;
+              color: white;
+       }
+       }
+.lastSpanOfFooter{
+       color: white;
+       margin-left: 40px;
+       margin-top: 20px;
+}
+
+
+
+}
