@@ -11,6 +11,24 @@ export class SignUpPlan extends Component {
                     <NavLink to='/home' exact><h1>Chapos Films</h1></NavLink>
                     <NavLink to='/signIn' exact><p>Sign in</p></NavLink>
                     </div>
+
+                    <div className="allContainer">
+                    <p>Step 2 of 3</p>
+                    <h3>Change your plan when you want</h3>
+
+                    <div className="containerPlans">
+                    <div className="plan">
+                    <p>Basic</p>
+                    </div>
+                    <div className="plan1">
+                    <p>Estandar</p>
+                    </div>
+                    <div className="plan2">
+                    <p>Premium</p>
+                    </div>
+                    </div>
+
+                    </div>
                             
                      </div>
               )
