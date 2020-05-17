@@ -15,7 +15,7 @@ function App() {
     <Route path='/' component={Scroll} exact/>
     <Route path='/signin' component={SignIn} exact/>
     <Route path='/home' component={Scroll} exact/>
-    <Route path='/signup?' component={SignUpFirstPage} exact/>
+    <Route path='/sigupfirstpage' component={SignUpFirstPage} exact />
     </Switch>
    
     </BrowserRouter>

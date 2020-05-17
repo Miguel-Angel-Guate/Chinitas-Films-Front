@@ -17,7 +17,8 @@ const SearchFront = () => {
               <Search  className="se"
       placeholder="email"
      enterButton="Just Try it right now" 
-      size="large"
+      NavLink="(([to='/sigupfirstpage']))"
+     
      
       
       onSearch={value => console.log(value)}
