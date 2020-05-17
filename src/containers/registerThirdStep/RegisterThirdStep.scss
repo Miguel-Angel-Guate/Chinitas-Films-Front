@@ -57,12 +57,9 @@ align-items: center;
               
 
 
-              .login-form-button{
+             
+              button{
                      background-color: red;
-                     color: white;
-                     border: red;
-                     
-
               }
               a{
                      color: red;
@@ -80,7 +77,10 @@ align-items: center;
        }
 
        }
-
+       .login-form-button{
+              background-color: red;
+              color: white;
+       }
 
 
 }

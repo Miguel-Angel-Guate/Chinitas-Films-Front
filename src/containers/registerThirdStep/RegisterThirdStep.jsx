@@ -66,7 +66,7 @@ export class RegisterThirdStep extends Component {
        <Button  htmlType="submit" className="login-form-button">
          Log in
        </Button>
-       <p className="or">Or</p> <NavLink to="/home"><a >Sign Up now!</a></NavLink>
+      
      </Form.Item>
    </Form>
                         </div>
