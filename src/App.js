@@ -6,6 +6,8 @@ import SignIn from './containers/signIn/SignIn'
 import Scroll from './components/scroll/Scroll';
 import SignUpFirstPage from './containers/SignUpFirstPage/SignUpFirstPage';
 import SignUpPlan from './containers/signUpPlan/SignUpPlan';
+import RegisterThirdStep from './containers/registerThirdStep/RegisterThirdStep';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
     <Route path='/home' component={Scroll} exact/>
     <Route path='/signup' component={SignUpFirstPage} exact />
     <Route path='/signup/signUpPlan' component={SignUpPlan} exact />
+    <Route path='/signUpPlan/register' component={RegisterThirdStep} exact />
 
     </Switch>
    
