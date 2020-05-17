@@ -2,6 +2,7 @@ import React from 'react'
 import  './Search.scss'
 import { Input } from 'antd';
 import { AudioOutlined } from '@ant-design/icons';
+import { NavLink } from 'react-router-dom';
 
 const { Search } = Input;
 
@@ -13,14 +14,16 @@ const SearchFront = () => {
               <p>Watch anywhere, cancel anytime</p>
               
 
-              <Search className="se"
+              <Search  className="se"
       placeholder="email"
-      enterButton="Join free for a month"
+     enterButton="Just Try it right now" 
       size="large"
+     
+      
       onSearch={value => console.log(value)}
       
     />
-    <p>Start writting your email </p>
+    <p>Ready? Start writting your email </p>
 
              
               </div>
