@@ -27,6 +27,7 @@
               padding-left: 220px;
               .containerPlans{
                      display: flex;
+                     justify-content:center;
                      
               
               .plan{
@@ -72,7 +73,55 @@
 
 
               }
-          }
+             
+                 
+           }
+           .divsline{
+                  display: flex;
+                  width: 100%;
+                 
 
+                  .lineOne{
+                         display: flex;
+                         width: 60%;
+                  }
+
+                  .lineTwo{
+                     display: flex;
+                     width: 60%;
+              }
+
+              .lineThree{
+                     display: flex;
+                     width: 60%;
+              }
+
+              .lineFour{
+                     display: flex;
+                     width: 60%;
+              }
+
+              .lineFive{
+                     display: flex;
+                     width: 60%;
+              }
+             
+           }
+           
+         
        }
+       .containerOfButton{ 
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       .continue{
+              display: flex;
+              background-color: red;
+              color: white;
+              
+             
+       }
+}
+
 }

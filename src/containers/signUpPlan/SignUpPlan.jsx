@@ -29,6 +29,44 @@ export class SignUpPlan extends Component {
                     </div>
 
                     </div>
+                    
+                    <div className="divsline">
+
+                    <div className="lineOne">                   
+                      <p>Pay per month</p>
+                     <hr></hr>
+                     </div>
+
+                     <div className="lineTwo">                   
+                     
+                     <p>Available in Hd</p>
+                     <hr></hr>
+                     </div>
+
+                     <div className="lineThree">                   
+                     
+                     <p>Available in ultra Hd</p>
+                     <hr></hr>
+                     </div>
+
+                     <div className="lineFour">                   
+                     
+                     <p>Screen on the same time</p>
+                     <hr></hr>
+                     </div>
+
+                     <div className="lineFive">                   
+                     
+                     <p>All the films you would like</p>
+                     <hr></hr>
+                     </div>
+                     <p>lorem ipsum lorem ipsum lorem ipusum lorem ipsum lorem ipsum lorem ipusum <br></br> lorem lorem ipsum lorem ipsum lorem ipusum</p>
+                    <div>
+                     <button className="continue">continue</button>
+                     </div>
+
+                     </div>
+
                             
                      </div>
               )
