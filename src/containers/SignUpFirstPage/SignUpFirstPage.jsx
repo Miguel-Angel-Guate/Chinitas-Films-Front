@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './SignUpFirstPage.scss'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -9,8 +10,8 @@ export class SignUpFirstPage extends Component {
                      <div className="containerFirstPageSignUp">
 
                     <div className="headerOfSignUpFirstPage">
-                    <h1>Chapos Films</h1>
-                    <p>Sign in</p>
+                    <NavLink to='/home' exact><h1>Chapos Films</h1></NavLink>
+                    <NavLink to='/signIn' exact><p>Sign in</p></NavLink>
                     </div>
                     <div className="containerOf">
                     <img className="checkImg" src={require('../../img/check.jpg')} />

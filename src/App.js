@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import SignIn from './containers/signIn/SignIn'
 import Scroll from './components/scroll/Scroll';
 import SignUpFirstPage from './containers/SignUpFirstPage/SignUpFirstPage';
+import SignUpPlan from './containers/signUpPlan/SignUpPlan';
 
 
 function App() {
@@ -13,9 +14,11 @@ function App() {
    
     <Switch>
     <Route path='/' component={Scroll} exact/>
-    <Route path='/signin' component={SignIn} exact/>
+    <Route path='/signIn' component={SignIn} exact/>
     <Route path='/home' component={Scroll} exact/>
-    <Route path='/sigupfirstpage' component={SignUpFirstPage} exact />
+    <Route path='/signup' component={SignUpFirstPage} exact />
+    <Route path='/signup/signUpPlan' component={SignUpPlan} exact />
+
     </Switch>
    
     </BrowserRouter>
