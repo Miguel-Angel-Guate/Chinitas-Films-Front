@@ -30,7 +30,7 @@ export class SignUpFirstPage extends Component {
                     <img  className="hiImg" src={require('../../img/check.jpg')}/>
                     <p>Hello world</p>
                     </div>
-                    <button>watch our plan</button>
+                    <NavLink to='/signup/signUpPlan'><button>watch our plan</button></NavLink>
 
                     </div>
                  
