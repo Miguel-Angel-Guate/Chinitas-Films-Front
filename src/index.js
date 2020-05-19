@@ -6,6 +6,7 @@ import store from './redux/store'
 import App from './App.js';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
+import './ApiConfig'
 
 ReactDOM.render(
 

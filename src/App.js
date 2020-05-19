@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import {  BrowserRouter, Route, Switch } from 'react-router-dom';
 import SignIn from './containers/signIn/SignIn'
+import PrivateZone from './guards/PrivateZone';
 import Scroll from './components/scroll/Scroll';
 import SignUpFirstPage from './containers/SignUpFirstPage/SignUpFirstPage';
 import SignUpPlan from './containers/signUpPlan/SignUpPlan';
