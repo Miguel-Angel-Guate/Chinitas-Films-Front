@@ -1,17 +1,29 @@
 import React, { Component } from 'react'
 import './RegisterThirdStep.scss'
-import { Form, Input, Button, Checkbox } from 'antd';
+import { register } from './../../redux/actions/users'
+import { useHistory } from 'react-router-dom'
+import { Form, Input, Button, notification } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import { NavLink } from 'react-router-dom';
 
 
-export class RegisterThirdStep extends Component {
+const  RegisterThirdStep = () => {
+  
+  const history = useHistory();
 
-       onFinish = values => {
-              console.log(values);
+      const onFinish = user => {
+        register(user).then(() =>{
+          notification.success({message:'User register',description:'User register successfully'})
+          history.push('/signin')
+        })
+        .catch(error=>{
+          console.error(error)
+          notification.error({message:'some wrong with the register',description:'wrong to try'})
+        })
+             
             };
 
-       render() {
+      
               
               return (
                      <div className="registerContainer">
@@ -32,10 +44,10 @@ export class RegisterThirdStep extends Component {
      initialValues={{
        remember: true,
      }}
-     onFinish={this.onFinish}
+     onFinish={onFinish}
    >
      <Form.Item
-       name="username"
+       name="email"
        rules={[
          {
            required: true,
@@ -74,6 +86,6 @@ export class RegisterThirdStep extends Component {
                      </div>
               )
        }
-}
+
 
 export default RegisterThirdStep

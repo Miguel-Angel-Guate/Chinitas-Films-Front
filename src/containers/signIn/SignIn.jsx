@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import './SignIn.scss'
+
 import Footer from'../../components/footer/Footer'
 
 
@@ -11,8 +12,9 @@ import Footer from'../../components/footer/Footer'
 export class SignIn extends Component {
        
 
-       onFinish = values => {
-              console.log(values);
+       onFinish = user => {
+         
+              console.log(user);
             };
       
        render() {
