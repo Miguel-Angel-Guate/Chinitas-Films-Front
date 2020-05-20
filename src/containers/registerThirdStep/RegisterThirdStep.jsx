@@ -76,7 +76,7 @@ const  RegisterThirdStep = () => {
 
      <Form.Item>
        <Button  htmlType="submit" className="login-form-button">
-         Log in
+        Register
        </Button>
       
      </Form.Item>

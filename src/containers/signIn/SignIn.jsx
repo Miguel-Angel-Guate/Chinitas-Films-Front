@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
-import { Form, Input, Button, Checkbox } from 'antd';
+import { Form, Input, Button, notification} from 'antd';
+import { login } from './../../redux/actions/users';
+import { useHistory } from 'react-router-dom'
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
+
 import './SignIn.scss'
 
 import Footer from'../../components/footer/Footer'
@@ -9,15 +12,24 @@ import Footer from'../../components/footer/Footer'
 
 
 
-export class SignIn extends Component {
-       
+const  SignIn = () => {
+       const history = useHistory();
 
-       onFinish = user => {
-         
-              console.log(user);
+       const onFinish = user => {
+        login(user).then(() =>{
+          notification.success({message:'connected', description:'User Conected successfully'});
+          setTimeout(() => {
+            history.push('/home')
+        }, 1500);
+        })
+        .catch(error=>{
+          console.error(error)
+          notification.error({message:'Some wront when to try loggin',description:'some wrong when you try validation'})
+      })
+
             };
       
-       render() {
+       
               return (
                      <div className="signInContainerPage">
                      <div className="chinitasTitleSigInPage">
@@ -32,10 +44,10 @@ export class SignIn extends Component {
       initialValues={{
         remember: true,
       }}
-      onFinish={this.onFinish}
+     const  onFinish={onFinish}
     >
       <Form.Item
-        name="username"
+        name="email"
         rules={[
           {
             required: true,
@@ -80,6 +92,6 @@ export class SignIn extends Component {
 
               
        }
-}
+
 
 export default SignIn
