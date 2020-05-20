@@ -8,7 +8,7 @@ export class SignUpPlan extends Component {
               return (
                      <div className="containerSignUpPlan">
                      <div className="headerOfSignUpPlan">
-                    <NavLink to='/home' exact><h1>Chapos Films</h1></NavLink>
+                    <NavLink to='/' exact><h1>Chapos Films</h1></NavLink>
                     <NavLink to='/signIn' exact><p>Sign in</p></NavLink>
                     </div>
 

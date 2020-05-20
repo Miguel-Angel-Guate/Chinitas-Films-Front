@@ -21,7 +21,7 @@ export class SignIn extends Component {
               return (
                      <div className="signInContainerPage">
                      <div className="chinitasTitleSigInPage">
-                     <NavLink to="/home"><p className="chinitasInSignInPage">Chapos Films</p></NavLink>
+                     <NavLink to="/"><p className="chinitasInSignInPage">Chapos Films</p></NavLink>
                      </div>
 
                      <div className="formInSignInPage">
@@ -66,7 +66,7 @@ export class SignIn extends Component {
         <Button  htmlType="submit" className="login-form-button">
           Log in
         </Button>
-        <p className="or">Or</p> <NavLink to="/home"><a >Sign Up now!</a></NavLink>
+        <p className="or">Or</p> <NavLink to="/"><a >Sign Up now!</a></NavLink>
       </Form.Item>
     </Form>
                          </div>

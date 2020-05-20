@@ -12,7 +12,7 @@ const  Header = () => {
        <header className="contOfHeader">
        
        <div className="headOfTheContainer">
-       <p className="titleOfChinitas">Chapos films</p>
+       <img className="titleOfChinitas" src={require('./../../img/chap.png')} />
        <NavLink className="buttonLogin"  to='/signIn' exact><button>Sign in</button></NavLink>
        </div>
        <div className="search">
