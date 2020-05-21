@@ -1,0 +1,73 @@
+.signInContainerPage{
+       height: 120vh;
+       background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../img/chinitass.jpg');
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       margin-bottom: 0;
+       padding-bottom: 0;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+
+  .chinitasTitleSigInPage{
+                     font-family: Arial, Helvetica, sans-serif;
+                     color: red;
+                     font-size: 30px;
+                     padding-top: 24px;
+                     padding-left: 15px;
+                     display: flex; 
+                     width: 100%;   
+                     p{
+                            color: red;
+                     }
+                            
+              }
+      
+       
+
+       .formInSignInPage{
+              height: 60vh;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding-top: 110px;
+              width: 300px;
+              
+              background-color: black;
+              opacity: 80%;
+              
+
+
+              .login-form-button{
+                     background-color: red;
+                     color: white;
+                     border: red;
+                     
+
+              }
+              a{
+                     color: red;
+                     font-family: Arial, Helvetica, sans-serif;
+
+              }
+              
+       }
+       .or{   padding: 1px;
+              margin: 0;
+              color: white;
+              display: flex;
+              font-size: 12px;
+              display: inline;
+       }
+       .footerDiv{
+              height: 60vh;
+              width: 100%;
+              padding-top: 0;
+              margin-top: 0;
+       }
+      
+
+}

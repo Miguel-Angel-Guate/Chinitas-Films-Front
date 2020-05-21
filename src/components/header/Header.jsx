@@ -1,8 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+
 import './Header.scss';
 import SearchFront from '../search/Search';
+
 
 const  Header = () => {
       
@@ -10,14 +12,16 @@ const  Header = () => {
        <header className="contOfHeader">
        
        <div className="headOfTheContainer">
-       <p className="titleOfChinitas">Chinitas films</p>
-       <NavLink className="buttonLogin" to='/login' exact><button>Sign in</button></NavLink>
+       <img className="titleOfChinitas" src={require('./../../img/chap.png')} />
+       <NavLink className="buttonLogin"  to='/signIn' exact><button>Sign in</button></NavLink>
        </div>
        <div className="search">
-       <SearchFront />
+ <SearchFront />
        </div>
-
+       
+      
        </header>
+       
        
        
        

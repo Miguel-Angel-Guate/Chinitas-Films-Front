@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Scroll.scss'
 import { Drawer, Button, Radio, Space, Modal, Input } from 'antd';
 import { AudioOutlined } from '@ant-design/icons';
+import Header from '../header/Header';
 
 const { Search } = Input;
 
@@ -36,13 +37,13 @@ const  Scroll = () => {
 
        return (
               <div className="scrollCont">
-
+            <Header />
 
               <div className="firstSection">
               <div className="containerFirstSection">
               
               <div className="leftOne">
-              <h1>Enjoy Chinitas films on <br></br> your tv  </h1>
+              <h1>Enjoy Chapos Films on <br></br> your tv  </h1>
               </div>
              
               <div className="rightOne">
@@ -74,7 +75,7 @@ const  Scroll = () => {
               <div className="containerThirdSection">
 
               <div className="leftThird"> 
-              <h1>Enjoy anytime, anywhere <br></br> to watch when your phone internet is off</h1>
+              <h1>Enjoy Chapos Films anytime, anywhere <br></br> to watch when your phone internet is off</h1>
               <p>just play and we will our with you</p>
 
               </div>
@@ -93,15 +94,15 @@ const  Scroll = () => {
               <h1 className="h1FouthSection">Relevants questions</h1>
               <div className="modalScroll">
               <Button type="primary" onClick={showModal}>
-                Whats is Chinitas Films
+                Whats is Chapos Films
               </Button>
               <Modal
-                title="Chinitas Films"
+                title="Chapos Films"
                 visible={change}
                onOk={handleOk}
                onCancel={handleCancel}
               >
-                <p>lorem ipsum lorem ipsum lorem ipsum</p>
+                <p>Chapos Films lorem ipsum lorem ipsum lorem ipsum</p>
                 
               </Modal>
               
@@ -111,12 +112,12 @@ const  Scroll = () => {
               Whats is Chinitas Films
             </Button>
             <Modal
-              title="Chinitas Films"
+              title="Chapos Films is the Best"
               visible={change}
              onOk={handleOk}
              onCancel={handleCancel}
             >
-              <p>lorem ipsum lorem ipsum lorem ipsum</p>
+              <p>Chapos Films lorem ipsum lorem ipsum lorem ipsum</p>
               
             </Modal>
             
@@ -124,32 +125,15 @@ const  Scroll = () => {
 
           <div className="modalScroll">
             <Button type="primary" onClick={showModal}>
-              Whats is Chinitas Films
+              Whats is Chapos Films
             </Button>
             <Modal
-              title="Chinitas Films"
+              title="Where From is Chapos Films"
               visible={change}
              onOk={handleOk}
              onCancel={handleCancel}
             >
-              <p>lorem ipsum lorem ipsum lorem ipsum</p>
-              
-            </Modal>
-            
-          </div>
-
-
-          <div className="modalScroll">
-            <Button type="primary" onClick={showModal}>
-              Whats is Chinitas Films
-            </Button>
-            <Modal
-              title="Chinitas Films"
-              visible={change}
-             onOk={handleOk}
-             onCancel={handleCancel}
-            >
-              <p>lorem ipsum lorem ipsum lorem ipsum</p>
+              <p>Chapos Films lorem ipsum lorem ipsum lorem ipsum</p>
               
             </Modal>
             
@@ -158,7 +142,7 @@ const  Scroll = () => {
 
           <div className="modalScroll">
             <Button type="primary" onClick={showModal}>
-              Whats is Chinitas Films
+              i thinks Chapos films ....
             </Button>
             <Modal
               title="Chinitas Films"
@@ -166,7 +150,24 @@ const  Scroll = () => {
              onOk={handleOk}
              onCancel={handleCancel}
             >
-              <p>lorem ipsum lorem ipsum lorem ipsum</p>
+              <p>Chapos films lorem ipsum lorem ipsum lorem ipsum</p>
+              
+            </Modal>
+            
+          </div>
+
+
+          <div className="modalScroll">
+            <Button type="primary" onClick={showModal}>
+              Whats is Chapos Films
+            </Button>
+            <Modal
+              title="Chapos Films"
+              visible={change}
+             onOk={handleOk}
+             onCancel={handleCancel}
+            >
+              <p>Chapos filmslorem ipsum lorem ipsum lorem ipsum</p>
               
             </Modal>
             
@@ -184,29 +185,29 @@ const  Scroll = () => {
              
               <div className="fifthSection">
               <div className="call">
-              <span>Call us  000000000000000</span>
+              <span>Call Chapos Films  000000000000000</span>
               </div>
               
               <div className="fifthContainer">
               <div className="fifthLeft">
               <li>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
+              <ul>Why Chapos is the Best?</ul>
+              <ul>Why Chapos is easy</ul>
+              <ul>Why Chapos </ul>
+              <ul>Why i Love chapos?</ul>
               </li>
               </div>
               <div className="fifthRight">
 
               <li>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
-              <ul>Answers relevants</ul>
+              <ul>Chapos is easy peace</ul>
+              <ul>Chapos i love it</ul>
+              <ul>Thanks chapos for All</ul>
               <ul>Answers relevants</ul>
               </li>
               </div>
               </div>
-              <span className="lastSpan">China films around the world</span>
+              <span className="lastSpan">Chapos films around the world</span>
 
               </div>
 

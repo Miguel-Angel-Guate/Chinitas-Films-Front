@@ -1,0 +1,20 @@
+.headerHome{
+       height: 40px;
+       display: flex;
+       align-items: center;
+       background-color: black;
+      
+     
+       .logoHome{
+              height: 25px;
+              margin-top: 15px;
+              align-items: center;
+       }
+       p{     display: flex;
+              align-items: center;
+              color: white;
+              padding: 10px;
+              margin-top: 10px;
+              cursor: pointer;
+       }
+}

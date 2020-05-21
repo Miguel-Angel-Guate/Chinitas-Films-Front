@@ -1,0 +1,185 @@
+.containerSignUpPlan{
+
+       .headerOfSignUpPlan{
+              display: flex;
+              width: 100%;
+              height: 13vh;
+              justify-content: space-between;
+              align-items: center;
+              border-bottom: 1px grey solid;
+              h1{
+                     padding-top: 20px;
+                     color: red;
+                     padding-left: 30px;
+                     cursor: pointer;
+              }
+
+             p{
+                    padding-top: 40px;
+                    padding-right: 45px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    cursor: pointer;
+             }
+
+       }
+       .allContainer{
+              padding-top: 30px;
+              padding-left: 220px;
+              .containerPlans{
+                     display: flex;
+                     justify-content:center;
+                     
+              
+              .plan{
+                     background-color: red;
+                     width: 90px;
+                     height: 100px;
+                     display: flex;
+                     margin-right: 10px;
+                     color: white;
+                     p{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                     }
+                   
+              }
+              .plan1{
+                     background-color: red;
+                     width: 90px;
+                     height: 100px;
+                     margin-right: 10px;
+                     color: white;
+                     p{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                     }
+
+
+
+              }
+              .plan2{
+                     background-color: red;
+                     width: 90px;
+                     height: 100px;
+                     margin-right: 10px;
+                     color: white;
+                     p{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                     }
+
+
+              }
+             
+                 
+           }
+           .divsline{
+                  display: flex;
+                  width: 100%;
+                 
+
+                  .lineOne{
+                         display: flex;
+                         width: 60%;
+                  }
+
+                  .lineTwo{
+                     display: flex;
+                     width: 60%;
+              }
+
+              .lineThree{
+                     display: flex;
+                     width: 60%;
+              }
+
+              .lineFour{
+                     display: flex;
+                     width: 60%;
+              }
+
+              .lineFive{
+                     display: flex;
+                     width: 60%;
+              }
+             
+           }
+           
+         
+       }
+       .containerOfButton{ 
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       .continue{
+              display: flex;
+              background-color: red;
+              color: white;
+              
+             
+       }
+       }
+
+       .footerContainerOfSignUpFirstPage{
+              display: flex;
+              
+              border: rgb(95, 91, 91) 2px solid;
+              background-color: grey;
+              height: 55vh;
+              flex-direction: column;
+            margin-top: 193px;
+            color: gray;
+              .callUsContainerOfFooterFromSignUpFirst{
+                     height: 30px;
+                     display: flex;
+                     margin-top: 20px;
+       
+          
+       width: 100%; 
+        span{
+                     color: white;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                     
+                     height: 50px;
+                     flex-wrap: nowrap;
+                    
+                     
+              }
+       }
+              .containerOfFooter{
+                     display: flex;
+                     
+                     margin-top: 5px;
+                   
+                    
+                     width: 100%;
+       
+                     .footerLeft{
+                            display: flex;
+                            color: white;
+                            width: 50%;
+                     }
+       
+              .footerRight{
+                     display: flex;
+                     width: 50%;
+                     color: white;
+              }
+              }
+       .lastSpanOfFooter{
+              color: white;
+              margin-left: 40px;
+              margin-top: 10px;
+       }
+       
+       
+       
+       }
+
+}
