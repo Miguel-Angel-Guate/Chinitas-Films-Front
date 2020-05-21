@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import character from "./characterData.js";
+import Populars from "./Populars.jsx";
 
 const reducer = combineReducers({
-    character
+    Populars
     
 })
 export default reducer;

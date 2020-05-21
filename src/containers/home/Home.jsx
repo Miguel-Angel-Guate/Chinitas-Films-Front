@@ -1,25 +1,23 @@
 
 import React,  { useEffect } from 'react'
+import './Home.scss'
 import { connect } from 'react-redux';
-import { character } from '../../redux/actions/characterData'
+import HeaderHome from '../../containerOfChaposHome/Header/HeaderHome';
+import VideoPlay from '../../containerOfChaposHome/videPlay/VideoPlay';
 
 
 
 const Home = (props) => {
-       useEffect(() => {
-              console.log()
-              character()
-                  .catch(console.error)
-          }, []);
+       
        return (
               <div>
-              <h1>Hello world</h1>
+              <HeaderHome />
+              <VideoPlay />
 
                      
               </div>
        )
 }
-const mapStateToProps = (state) => ({ character: state.character.character })
-export default connect(mapStateToProps)(Home);
+export default Home
 
 
