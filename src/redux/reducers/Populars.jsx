@@ -1,5 +1,5 @@
 
-const  PopularsReducer = (state = {}, action) => {
+const  popularsReducer = (state = {}, action) => {
        switch (action.type) {
               case 'POPULARS':
                   return {
@@ -13,4 +13,4 @@ const  PopularsReducer = (state = {}, action) => {
           }
 }
 
-export default PopularsReducer
+export default popularsReducer

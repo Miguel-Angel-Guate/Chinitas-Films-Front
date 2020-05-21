@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
-import Populars from "./Populars.jsx";
+import Populars from './Populars';
+
 
 const reducer = combineReducers({
     Populars
