@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import './Populars.scss'
+import './PopularsFilms.scss'
 import { connect } from 'react-redux';
 import { populars } from '../../redux/actions/Populars'
 
 
-const Populars = (props) => {
+const PopularsFilms = (props) => {
        useEffect(() => {
               console.log()
               populars()
@@ -12,7 +12,8 @@ const Populars = (props) => {
           }, []);
 
        return (
-              <div >
+              <div className="popularsContainer">
+              <h1>Hello world</h1>
 
        
                      
@@ -20,5 +21,4 @@ const Populars = (props) => {
        )
 }
 
-const mapStateToProps = (state) => ({ populars: state.populars.populars })
-export default connect(mapStateToProps)(Populars);
+export default PopularsFilms
